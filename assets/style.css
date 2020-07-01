@@ -48,6 +48,10 @@ h2{
     background-color: dimgray;
 }
 
+#header{
+    background-color: slategrey;
+}
+
 @media (max-width: 660px) {
     .navbar-brand{
         width:100%;
