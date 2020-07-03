@@ -1,5 +1,6 @@
 body, .navbar-light{
     background-color: lightsteelblue;
+    margin-bottom: 90px;
 }
 
 .navbar, .top{
@@ -55,6 +56,11 @@ h2{
 footer{
     max-height: 90px;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 @media (max-width: 660px) {
     .navbar-brand{
